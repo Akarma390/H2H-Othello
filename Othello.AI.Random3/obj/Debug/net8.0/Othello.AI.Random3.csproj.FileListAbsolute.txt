@@ -1,0 +1,15 @@
+C:\Users\jeffp\Downloads\head2head_othello\Othello.AI.Random3\bin\Debug\net8.0\Othello.AI.Random3.deps.json
+C:\Users\jeffp\Downloads\head2head_othello\Othello.AI.Random3\bin\Debug\net8.0\Othello.AI.Random3.dll
+C:\Users\jeffp\Downloads\head2head_othello\Othello.AI.Random3\bin\Debug\net8.0\Othello.AI.Random3.pdb
+C:\Users\jeffp\Downloads\head2head_othello\Othello.AI.Random3\bin\Debug\net8.0\Othello.Contract.dll
+C:\Users\jeffp\Downloads\head2head_othello\Othello.AI.Random3\bin\Debug\net8.0\Othello.Contract.pdb
+C:\Users\jeffp\Downloads\head2head_othello\Othello.AI.Random3\obj\Debug\net8.0\Othello.AI.Random3.csproj.AssemblyReference.cache
+C:\Users\jeffp\Downloads\head2head_othello\Othello.AI.Random3\obj\Debug\net8.0\Othello.AI.Random3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeffp\Downloads\head2head_othello\Othello.AI.Random3\obj\Debug\net8.0\Othello.AI.Random3.AssemblyInfoInputs.cache
+C:\Users\jeffp\Downloads\head2head_othello\Othello.AI.Random3\obj\Debug\net8.0\Othello.AI.Random3.AssemblyInfo.cs
+C:\Users\jeffp\Downloads\head2head_othello\Othello.AI.Random3\obj\Debug\net8.0\Othello.AI.Random3.csproj.CoreCompileInputs.cache
+C:\Users\jeffp\Downloads\head2head_othello\Othello.AI.Random3\obj\Debug\net8.0\Othello..CBA5795A.Up2Date
+C:\Users\jeffp\Downloads\head2head_othello\Othello.AI.Random3\obj\Debug\net8.0\Othello.AI.Random3.dll
+C:\Users\jeffp\Downloads\head2head_othello\Othello.AI.Random3\obj\Debug\net8.0\refint\Othello.AI.Random3.dll
+C:\Users\jeffp\Downloads\head2head_othello\Othello.AI.Random3\obj\Debug\net8.0\Othello.AI.Random3.pdb
+C:\Users\jeffp\Downloads\head2head_othello\Othello.AI.Random3\obj\Debug\net8.0\ref\Othello.AI.Random3.dll
