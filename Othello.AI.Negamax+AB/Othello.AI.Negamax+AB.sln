@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11505.172 d18.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Othello.AI.Negamax+AB", "Othello.AI.Negamax+AB.csproj", "{2D509F9C-FD7D-681B-6624-E31A803DD96C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D509F9C-FD7D-681B-6624-E31A803DD96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D509F9C-FD7D-681B-6624-E31A803DD96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D509F9C-FD7D-681B-6624-E31A803DD96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D509F9C-FD7D-681B-6624-E31A803DD96C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B0D1399-A30C-4E4F-A2B5-5F7C7262E820}
+	EndGlobalSection
+EndGlobal

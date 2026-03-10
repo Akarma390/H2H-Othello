@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "074UBFv3wyo=",
+  "dgSpecHash": "TRaUviOoLpI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jeffp\\Downloads\\head2head_othello\\Othello.AI.Random3\\Othello.AI.Random3.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\jeffp\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.24\\microsoft.netcore.app.ref.8.0.24.nupkg.sha512",
-    "C:\\Users\\jeffp\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.24\\microsoft.windowsdesktop.app.ref.8.0.24.nupkg.sha512",
-    "C:\\Users\\jeffp\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.24\\microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Github\\H2H-Othello\\Othello.AI.Random3\\Othello.AI.Random3.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
