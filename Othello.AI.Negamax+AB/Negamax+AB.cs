@@ -21,12 +21,13 @@ public class NegaMaxAB : IOthelloAI
 
         Move bestMove = validMoves[0];
         int bestScore = int.MinValue;
+        int Depth = 5;
 
         foreach (var move in validMoves)
         {
             var newBoard = ApplyMove(board, move, yourColor);
 
-            int score = -NegaMax(newBoard, 3, int.MinValue, int.MaxValue, Opposite(yourColor));
+            int score = -NegaMax(newBoard, Depth, int.MinValue, int.MaxValue, Opposite(yourColor));
 
             if (score > bestScore)
             {
@@ -82,6 +83,62 @@ public class NegaMaxAB : IOthelloAI
                     opponentScore++;
             }
         }
+
+        // Corners +score
+        int[,] corners = { { 0, 0 }, { 0, 7 }, { 7, 0 }, { 7, 7 } };
+
+        for (int i = 0; i < 4; i++)
+        {
+            int r = corners[i, 0];
+            int c = corners[i, 1];
+
+            if (board.Grid[r, c] == color)
+                myScore += 30;
+            else if (board.Grid[r, c] == opponent)
+                opponentScore += 30;
+        }
+
+        // Edges +score
+        for (int i = 1; i < 7; i++)
+        {
+            // top
+            if (board.Grid[0, i] == color) myScore += 5;
+            else if (board.Grid[0, i] == opponent) opponentScore += 5;
+
+            // bottom
+            if (board.Grid[7, i] == color) myScore += 5;
+            else if (board.Grid[7, i] == opponent) opponentScore += 5;
+
+            // left
+            if (board.Grid[i, 0] == color) myScore += 5;
+            else if (board.Grid[i, 0] == opponent) opponentScore += 5;
+
+            // right
+            if (board.Grid[i, 7] == color) myScore += 5;
+            else if (board.Grid[i, 7] == opponent) opponentScore += 5;
+        }
+
+        // X and C squares  -score
+        int[,] xcSquares = 
+        { 
+            { 1, 1 }, { 1, 6 }, { 6, 1 }, { 6, 6 }, // X Squares
+            { 0, 1 }, { 1, 0 }, // C Squares 
+            { 0, 6 }, { 1, 7 }, // C Squares
+            { 6, 0 }, { 7, 1 }, // C Squares
+            { 6, 7 }, { 7, 6 }  // C Squares 
+        };
+
+        for (int i = 0; i < 12; i++)
+        {
+            int r = xcSquares[i, 0];
+            int c = xcSquares[i, 1];
+
+            if (board.Grid[r, c] == color)
+                myScore -= 10;
+            else if (board.Grid[r, c] == opponent)
+                opponentScore -= 10;
+        }
+       
         return myScore - opponentScore;
     }
 
